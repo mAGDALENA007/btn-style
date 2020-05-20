@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;  
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.intro {
+    height: 50em;
+    width: 100%;
+    margin: auto;
+    background: url("kw.jpg") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    filter: sepia(50%);
+        -webkit-filter: sepia(50%);
+        -moz-filter: sepia(50%);
+        -o-filter: sepia(50%);
+        -ms-filter: sepia(50%);
+    z-index: -100; 
+}
+.intro .inner {
+    display: table;
+    width: 100%;
+    max-width: none;
+    line-height: 2em;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*==================
+STYLIZACJA LOGA
+===================*/
+.content h1 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 6rem;
+    color: #f8ab90;
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    transform-origin: center center;
+    text-shadow:  1px 1px #e85166,
+                  2px 2px #e85166,
+                  3px 3px #e85166,
+                  4px 4px #e85166,
+                  5px 5px #e85166,
+                  6px 6px #e85166,
+                  7px 7px #e85166,
+                  8px 8px #e85166,
+                  9px 9px #e85166,
+                  10px 10px #e85166,
+                  11px 11px 15px rgba(0,0,0,0.5)
+} 
+/*==================
+STYLIZACJA okrągłęgo przycisku
+===================*/
+.btn3d {
+    background-color: #e85166; /* For browsers that do not support gradients */
+        -webkit-background-color: #e85166;
+        -moz-background-color: #e85166;
+        -o-background-color: #e85166;
+        -ms-background-color: #e85166;
+    
+    background: #e85166;
+    background: -webkit-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Standard syntax */
+  
+    font-size: 1.4rem;
+    text-shadow: 0 -1px 0 hsl(352, 77%, 61%);
+    color: white;
+    border: solid 1px hsl(352, 77%, 61%);
+        -webkit-border: solid 1px hsl(352, 77%, 61%);
+        -moz-border: solid 1px hsl(352, 77%, 61%);
+        -o-border: solid 1px hsl(352, 77%, 61%);
+        -ms-border: solid 1px hsl(352, 77%, 61%);
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    z-index: 4;
+  
+    outline: none;
+  
+    box-shadow: inset 0 1px 1px hsl(352, 77%, 61%),
+                0 2px 2px hsl(352, 77%, 59%),
+                0 3px 3px hsl(352, 77%, 55%),
+                0 4px 4px hsl(352, 77%, 52%),
+                0 5px 5px hsl(352, 77%, 48%),
+                0 6px 6px hsl(352, 77%, 45%),
+                0 7px 7px hsl(352, 77%, 43%),
+                0 8px 8px hsl(352, 77%, 40%),
+                0 9px 9px hsl(352, 77%, 37%);
+  }
+  
+    .btn3d:hover {
+        background: yellow;
+        background: -webkit-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Safari 5.1 to 6.0 */
+        background: -o-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Opera 11.6 to 12.0 */
+        background: -moz-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Firefox 3.6 to 15 */
+        background: radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Standard syntax */
+        z-index: 6;
+    }
+  
+    .btn3d:active {
+        background: blue;
+        background: -webkit-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Safari 5.1 to 6.0 */
+        background: -o-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Opera 11.6 to 12.0 */
+        background: -moz-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Firefox 3.6 to 15 */
+        background: radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Standard syntax */
+  
+    top: 2px;
+  
+    box-shadow: inset 0 1px 0 hsl(54, 100%, 50%),
+                  0 2px 0 hsl(54, 100%, 20%),
+                  0 3px 0 hsl(54, 100%, 18%),
+                  0 4px 0 hsl(54, 100%, 16%),
+                  0 5px 0 hsl(54, 100%, 14%),
+                  0 6px 0 hsl(54, 100%, 12%),
+                  0 7px 0 hsl(54, 100%, 10%);
+    
+                  background: -webkit-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Safari 5.1 to 6.0 */
+                  background: -o-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Opera 11.6 to 12.0 */
+                  background: -moz-radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* For Firefox 3.6 to 15 */
+                  background: radial-gradient(hsl(352, 77%, 61%), hsl(352, 77%, 51%)); /* Standard syntax */
+    
+    
+    
+    
+    
+}
+  
